@@ -2,17 +2,10 @@ var express = require('express');
 var app = express();
 
 var motivations = require('motivations');
+var pickOne = require('pick-one');
 
 app.get('/', function(request, response){
-  response.send("Meow!");
-});
-
-app.get('/hello', function(request, response){
-  response.send("Hello World!");
-});
-
-app.get('/mot', function(request, response){
-  response.send(motivations[3]);
+  response.send(pickOne(motivations));
 });
 
 module.exports = app;
