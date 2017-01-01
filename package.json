@@ -1,24 +1,28 @@
 {
-  "name": "NodeTogether",
+  "name": "MotivationalQuotes",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Web app to display random motivational quote at every refresh.",
+  "main": "./app/app.js",
   "scripts": {
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevipriyaSarkar/NodeTogether.git"
+    "url": "git+https://github.com/DevipriyaSarkar/MotivationalQuotes.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Devipriya Sarkar",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DevipriyaSarkar/NodeTogether/issues"
+    "url": "https://github.com/DevipriyaSarkar/MotivationalQuotes/issues"
   },
-  "homepage": "https://github.com/DevipriyaSarkar/NodeTogether#readme",
+  "homepage": "https://github.com/DevipriyaSarkar/MotivationalQuotes#readme",
   "dependencies": {
-    "express": "^4.13.4",
-    "motivations": "^1.0.10"
+    "express": "^4.14.0",
+    "motivations": "^1.1.2",
+    "path": "^0.12.7",
+    "pick-one": "^1.0.1",
+	"serve-favicon": "^2.3.2",
+	"hogan-express": "^0.5.2"
   }
 }
