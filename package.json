@@ -19,10 +19,10 @@
   "homepage": "https://github.com/DevipriyaSarkar/MotivationalQuotes#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "motivations": "^1.1.2",
+    "hogan-express": "^0.5.2",
+    "motivation": "^1.0.3",
     "path": "^0.12.7",
     "pick-one": "^1.0.1",
-	"serve-favicon": "^2.3.2",
-	"hogan-express": "^0.5.2"
+    "serve-favicon": "^2.3.2"
   }
 }
