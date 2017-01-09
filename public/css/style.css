@@ -6,10 +6,6 @@
     justify-content: center;
 }
 
-.wrapper div {
-    align-items: stretch;
-}
-
 .card {
     align-self: center;
 }
